@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task2.css">
+    <title>InputForm</title>
+</head>
+<body>
+    <script src="task2.js"></script>
+    <h1>Registration Details</h1>
+    
+    <form action="">
+        <fieldset>
+            <label class="lab" for="subject">Subject :</label>
+            <input type="text" class="txt" id="subject" name="subject" placeholder="Subject">
+            <br>
+            <br>
+            <label class="lab" for="fname">First Name :</label>
+            <input type="text" class="txt" id="fname" name="fname" placeholder="First Name">
+            <br>
+            <br>
+            <label class="lab" for="lname">Last Name :</label>
+            <input type="text" class="txt" id="lname" name="lname" placeholder="Last Name">
+            <br>
+            <br>
+            <label class="lab" for="foreigner">Foreigner</label>
+            <input type="radio" id="foreigner" value="foreigner" name="nationality">
+            
+            <label class="lab" for="lankan">Sri Lankan</label>
+            <input type="radio" id="lankan" value="lankan" name="nationality">
+            <br>
+            <br>
+            <label class="lab" for="pnum">Phone Number :</label>
+            <input type="text" class="txt" id="pnum" name="pnum" placeholder="Enter phone number">
+            <br>
+            <br>
+            <label class="lab" for="mail">Email :</label>
+            <input type="email" class="txt" id="mail" name="mail" placeholder="Email">
+            <br>
+            <br>
+            <label class="lab" id="msglabel" for="msg">Message :</label>
+            <textarea name="msg" class="txt" id="msg" cols="50" rows="5"></textarea>
+            <br>
+            <br>
+            <input type="submit" class="txt" onclick="success()">
+        </fieldset>
+    </form>
+
+    <div id="sub">
+
+    </div>
+    <div id="first">
+
+    </div>
+    <div id="last">
+
+    </div>
+    <div id="phone">
+
+    </div>
+    <div id="maill">
+
+    </div>
+    <div id="sms">
+
+    </div>
+</body>
+</html>

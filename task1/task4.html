@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            position: absolute;
+            top: 20%;
+            left: 28%;
+            border: 3px solid black;
+            width: 40%;
+            height: 33vh;
+            border-collapse: collapse;
+
+        }
+        caption {
+            font-size: 80px;
+            padding: 25px;
+            margin-bottom: 25px;
+            
+        }
+
+        th, td {
+            font-size: 30px;
+            border: 2px solid black;
+
+            min-height: 35px;
+            text-align: center;
+
+            
+        }
+        thead {
+            background-color: rgb(9, 56, 40);
+            line-height: 65px;
+            color:white;
+        }
+        tbody {
+            background-color: rgb(183, 236, 219);
+        }
+        tbody tr:nth-child(even) {
+            background-color: rgb(83, 104, 97);
+            color:rgb(196, 189, 189)
+        }
+        tbody tr:hover {
+            background-color: blanchedalmond;
+            color: brown;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Table of Modules</caption>
+
+        <thead>
+            <tr>
+                <th>Module Id</th>
+                <th>Module Name</th>
+                <th>Credits</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CS-001</td>
+                <td>Introduction to Computer Science</td>
+                <td>5</td>
+
+            </tr>
+            <tr>
+                <td>CS-002</td>
+                <td>Methematics for Computing</td>
+                <td>5</td>
+
+            </tr>
+            <tr>
+                <td>CS-003</td>
+                <td>Programming Fundamentals</td>
+                <td>4</td>
+
+            </tr>
+            <tr>
+                <td>CS-004</td>
+                <td>Database Management Systems</td>
+                <td>6</td>
+
+            </tr>
+        </tbody>
+
+    </table>
+    
+</body>
+</html>
